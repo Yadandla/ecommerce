@@ -14,7 +14,7 @@ const Header = () => {
                             <div className="col-md-4">
                                 <div className="logo">
                                     {/* <img src="" alt="logo" /> */}
-                                    <h1>ShopNow</h1>
+                                    <h1>TrendsU</h1>
                                 </div>
                             </div>
                             <div className="col-md-4 d-flex justify-content-center align-items-center">
