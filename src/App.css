@@ -260,3 +260,9 @@ footer .copyrights p {
     border-radius: 5px;
     background-color: #fff;
 }
+
+.poster img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: -6px 6px 10px #808080b5;
+}

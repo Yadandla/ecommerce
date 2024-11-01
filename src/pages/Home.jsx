@@ -1,6 +1,7 @@
 import { FaHeart } from "react-icons/fa";
 import { FaShare } from "react-icons/fa6";
 import { FaCartShopping } from "react-icons/fa6";
+import { BsArrowsFullscreen } from "react-icons/bs";
 
 export const Home = () => {
     return (
@@ -47,6 +48,71 @@ export const Home = () => {
                 </section>
                 {/* Introduction Part Ends */}
 
+                {/* Know More Part Starts */}
+                <section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>Free Delivery</h2>
+                                    <p>Enjoy free shipping on all orders, straight to your doorstep!</p>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>24/7 Support</h2>
+                                    <p>Our team is here to help anytime, day or night.</p>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>Easy Returns</h2>
+                                    <p>Shop with confidence with hassle-free returns.</p>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>Exclusive Collection</h2>
+                                    <p>Explore unique styles, crafted just for you.</p>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>Secure Payments</h2>
+                                    <p>Pay with ease, knowing your information is safe.</p>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>Loyalty Rewards</h2>
+                                    <p>Earn points on every purchase and save more!</p>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>Satisfaction Guaranteed</h2>
+                                    <p>Our priority is your happiness with every order.</p>
+                                </div>
+                            </div>
+                            <div className="col-md-3">
+                                <div>
+                                    <img />
+                                    <h2>Fast Shipping</h2>
+                                    <p>Get your order delivered in record time!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* Know More Part Ends */}
+
                 {/* Collections Part Starts */}
                 <section className="collections-part space">
                     <div className="container">
@@ -65,6 +131,7 @@ export const Home = () => {
                                             <li><FaHeart /></li>
                                             <li><FaCartShopping /></li>
                                             <li><FaShare /></li>
+                                            <li><BsArrowsFullscreen /></li>
                                         </ul>
                                     </div>
                                     <img src="./images/jacket.png" alt="" />
@@ -84,6 +151,7 @@ export const Home = () => {
                                             <li><FaHeart /></li>
                                             <li><FaCartShopping /></li>
                                             <li><FaShare /></li>
+                                            <li><BsArrowsFullscreen /></li>
                                         </ul>
                                     </div>
                                     <img src="./images/jacket.png" alt="" />
@@ -103,6 +171,7 @@ export const Home = () => {
                                             <li><FaHeart /></li>
                                             <li><FaCartShopping /></li>
                                             <li><FaShare /></li>
+                                            <li><BsArrowsFullscreen /></li>
                                         </ul>
                                     </div>
                                     <img src="./images/jacket.png" alt="" />
@@ -122,6 +191,7 @@ export const Home = () => {
                                             <li><FaHeart /></li>
                                             <li><FaCartShopping /></li>
                                             <li><FaShare /></li>
+                                            <li><BsArrowsFullscreen /></li>
                                         </ul>
                                     </div>
                                     <img src="./images/jacket.png" alt="" />
@@ -140,17 +210,17 @@ export const Home = () => {
                 {/* Collections Part Ends */}
 
                 {/* Offers Part Starts */}
-                <section>
+                <section className="poster space">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6">
                                 <div>
-                                    <p>50% special offer</p>
+                                    <img src="images/example2.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div>
-                                    <p>50% special offer</p>
+                                    <img src="images/example.png" alt="" />
                                 </div>
                             </div>
                         </div>
