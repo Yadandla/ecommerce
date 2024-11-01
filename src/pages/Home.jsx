@@ -160,16 +160,5 @@ export const Home = () => {
             </main>
         </>
     )
-
-
-
-
-
-
-
-
-
-
-
 }
 

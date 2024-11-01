@@ -6,6 +6,9 @@ import { PiShoppingCartFill } from "react-icons/pi";
 const Header = () => {
     return (
         <>
+
+
+
             <header>
                 <section className="header">
                     <div className="container-fluid">
