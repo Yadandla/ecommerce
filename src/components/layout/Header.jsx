@@ -2,7 +2,6 @@ import { FaSearch } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import { IoMdPerson } from "react-icons/io";
 import { PiShoppingCartFill } from "react-icons/pi";
-// import { FaHeart } from "react-icons/fa";
 
 const Header = () => {
     return (

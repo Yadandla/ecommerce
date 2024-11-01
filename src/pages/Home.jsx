@@ -1,3 +1,7 @@
+import { FaHeart } from "react-icons/fa";
+import { FaShare } from "react-icons/fa6";
+import { FaCartShopping } from "react-icons/fa6";
+
 export const Home = () => {
     return (
         <>
@@ -54,16 +58,20 @@ export const Home = () => {
                             </div>
                         </div>
                         <div className="row new-arrivals">
-                            <div className="text-left">
-                                <h3 className="py-1 fw-bold">New Arrivals</h3>
-                            </div>
                             <div className="col-md-3">
                                 <div className="product-card">
+                                    <div className="likes">
+                                        <ul>
+                                            <li><FaHeart /></li>
+                                            <li><FaCartShopping /></li>
+                                            <li><FaShare /></li>
+                                        </ul>
+                                    </div>
                                     <img src="./images/jacket.png" alt="" />
-                                    <div>
-                                        <h4>warrior arrival1</h4>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                        <div className="buy-btn">
+                                    <div className="text-center pt-2 bg-white">
+                                        <h4 className="fw-bold">warrior arrival1</h4>
+                                        <p>$ 20.00</p>
+                                        <div className="buy-btn pb-3">
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
@@ -71,11 +79,18 @@ export const Home = () => {
                             </div>
                             <div className="col-md-3">
                                 <div className="product-card">
+                                    <div className="likes">
+                                        <ul>
+                                            <li><FaHeart /></li>
+                                            <li><FaCartShopping /></li>
+                                            <li><FaShare /></li>
+                                        </ul>
+                                    </div>
                                     <img src="./images/jacket.png" alt="" />
-                                    <div>
-                                        <h4>warrior arrival1</h4>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                        <div className="buy-btn">
+                                    <div className="text-center pt-2 bg-white">
+                                        <h4 className="fw-bold">warrior arrival1</h4>
+                                        <p>$ 20.00</p>
+                                        <div className="buy-btn pb-3">
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
@@ -83,11 +98,18 @@ export const Home = () => {
                             </div>
                             <div className="col-md-3">
                                 <div className="product-card">
+                                    <div className="likes">
+                                        <ul>
+                                            <li><FaHeart /></li>
+                                            <li><FaCartShopping /></li>
+                                            <li><FaShare /></li>
+                                        </ul>
+                                    </div>
                                     <img src="./images/jacket.png" alt="" />
-                                    <div>
-                                        <h4>warrior arrival1</h4>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                        <div className="buy-btn">
+                                    <div className="text-center pt-2 bg-white">
+                                        <h4 className="fw-bold">warrior arrival1</h4>
+                                        <p>$ 20.00</p>
+                                        <div className="buy-btn pb-3">
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
@@ -95,11 +117,18 @@ export const Home = () => {
                             </div>
                             <div className="col-md-3">
                                 <div className="product-card">
+                                    <div className="likes">
+                                        <ul>
+                                            <li><FaHeart /></li>
+                                            <li><FaCartShopping /></li>
+                                            <li><FaShare /></li>
+                                        </ul>
+                                    </div>
                                     <img src="./images/jacket.png" alt="" />
-                                    <div>
-                                        <h4>warrior arrival1</h4>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                        <div className="buy-btn">
+                                    <div className="text-center pt-2 bg-white">
+                                        <h4 className="fw-bold">warrior arrival1</h4>
+                                        <p>$ 20.00</p>
+                                        <div className="buy-btn pb-3">
                                             <a href="#">Buy Now</a>
                                         </div>
                                     </div>
@@ -109,6 +138,25 @@ export const Home = () => {
                     </div>
                 </section>
                 {/* Collections Part Ends */}
+
+                {/* Offers Part Starts */}
+                <section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div>
+                                    <p>50% special offer</p>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div>
+                                    <p>50% special offer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* Offers Part Ends */}
             </main>
         </>
     )

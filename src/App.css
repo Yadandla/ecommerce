@@ -193,10 +193,70 @@ footer .copyrights p {
     color: var(--color2);
 }
 
+.new-arrivals {
+    position: relative;
+    padding: 2rem 0 0 0;
+}
+
 .buy-btn a {
     background-color: var(--color1);
     color: var(--color2);
     text-decoration: none;
     padding: 5px 1rem;
     border-radius: 5px;
+}
+
+.buy-btn a:hover {
+    background-color: var(--color2);
+    color: #000;
+}
+
+.product-card {
+    padding: 1rem 1rem 0 1rem;
+    position: relative;
+    border-radius: 5px;
+    background: #fff5e554;
+    transition: all 0.3s linear;
+}
+
+.product-card:hover {
+    box-shadow: 0px -1px 9px #8080806e;
+}
+
+.product-card img {
+    width: 270px;
+    height: auto;
+    transform: scale(0.9);
+    transition: all 0.3s linear;
+    overflow: hidden;
+}
+
+.product-card:hover img {
+    transform: scale(1);
+}
+
+.likes {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    display: none;
+}
+
+.product-card:hover .likes {
+    display: block;
+}
+
+.likes ul {
+    padding-left: 0;
+}
+
+.likes ul li {
+    list-style-type: none;
+    padding: 0.25rem 0.5rem;
+    box-shadow: 4px 4px 6px #80808066;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    background-color: #fff;
 }
